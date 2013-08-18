@@ -30,10 +30,12 @@ print sum_list([44, 14, 76])
 # list that start with the uppercase 
 # letter 'U'.
 def measure_udacity(p):
-    s = 'U'
-    for s in p:
-        return p
-    
+    count = 0
+    for string in p:
+        if 'U' == string[0]:
+            count += 1
+    return count
+
 print measure_udacity(['Dave','Sebastian','Katy'])
 #>>> 0
 print measure_udacity(['Umika','Umberto'])
