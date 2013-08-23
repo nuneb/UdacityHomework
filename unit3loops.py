@@ -4,24 +4,16 @@
 # list of numbers, and returns the sum of all the elements in
 # the input list.
 
-def sum_list(list):
-    for i in list:
-        return list[0] + list[1] + list[2]
-
-#professor's answer
-#def sum_list(p):
-#    result = 0
-#    for e in p:
-#        result = result + e
-#    return result
+def sum_list(p):
+    result = 0
+    for e in p:
+        result = result + e
+    return result
     
 
-print sum_list([1, 7, 4])
-#>>> 12
-print sum_list([9, 4, 10])
-#>>> 23
-print sum_list([44, 14, 76])
-#>>> 134
+print sum_list([1, 7, 4])       #>>> 12
+print sum_list([9, 4, 10])      #>>> 23
+print sum_list([44, 14, 76])    #>>> 134
 
 # Define a procedure, measure_udacity,
 # that takes as its input a list of strings,
